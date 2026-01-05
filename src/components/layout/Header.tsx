@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Container } from './Container';
 import { Button } from '../ui/Button';
 import { Menu, X, Smartphone } from 'lucide-react';
@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
             </span>
           </div>
 
-          {/* Desktop Navigation */}
+   
           <nav className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <a 
@@ -50,7 +50,7 @@ export const Header: React.FC = () => {
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
+      
           <button 
             className="lg:hidden p-2 text-gray-700"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
         </div>
       </Container>
 
-      {/* Mobile Menu Overlay */}
+  
       {isMobileMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-lg lg:hidden p-4 flex flex-col gap-4 animate-in slide-in-from-top-5">
           {navLinks.map((link) => (
