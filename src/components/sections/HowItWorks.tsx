@@ -7,12 +7,12 @@ export const HowItWorks: React.FC = () => {
     {
       icon: <Smartphone size={32} />,
       title: '1. Solicite',
-      description: 'Traga seu aparelho ou solicite nosso serviço de busca.'
+      description: 'Traga seu aparelho ou solicite a busca do seu smartphone direto de sua casa'
     },
     {
       icon: <Search size={32} />,
       title: '2. Diagnóstico',
-      description: 'Análise gratuita e orçamento sem compromisso.'
+      description: 'Análise gratuita do aparelho e orçamento.'
     },
     {
       icon: <PenTool size={32} />,
@@ -22,7 +22,7 @@ export const HowItWorks: React.FC = () => {
     {
       icon: <CheckCircle size={32} />,
       title: '4. Pronto!',
-      description: 'Receba seu celular testado, limpo e com garantia.'
+      description: 'Receba seu celular testado, limpo e com garantia. No conforto de sua casa.'
     }
   ];
 
@@ -30,7 +30,7 @@ export const HowItWorks: React.FC = () => {
     <section id="how-it-works" className="py-12 lg:py-20 bg-white">
       <Container>
         <div className="text-center mb-12 lg:mb-16">
-          <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Como funciona</h2>
+          <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Conheça nosso Delivery</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Processo simples, transparente e sem burocracia.
           </p>

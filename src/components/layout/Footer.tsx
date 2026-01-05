@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Phone size={20} className="text-secondary shrink-0" />
-                <span>(XX) XXXXX-XXXX</span>
+                <span>(11) 97369-3204</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-secondary shrink-0" />
@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-secondary shrink-0" />
-                <span>Rua Exemplo, 123 - Centro<br />São Paulo - SP</span>
+                <span> R. Cel. Oliveira Lima, 282<br />Centro, Santo André - SP </span>
               </li>
             </ul>
           </div>
@@ -55,6 +55,7 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Felix Cell Assistência Técnica. Todos os direitos reservados.</p>
+           <p> <a href="https://wa.me/551140512636" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">Feito por: Dev Laboratório</a> </p>
         </div>
       </Container>
     </footer>

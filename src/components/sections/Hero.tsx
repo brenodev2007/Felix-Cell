@@ -24,13 +24,17 @@ export const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="gap-2 shadow-lg shadow-primary/20">
-                Quero um orçamento agora
-                <ArrowRight size={20} />
-              </Button>
-              <Button variant="outline" size="lg">
-                Ver serviços
-              </Button>
+              <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="gap-2 shadow-lg shadow-primary/20">
+                  Quero um orçamento agora
+                  <ArrowRight size={20} />
+                </Button>
+              </a>
+              <a href="#services">
+                <Button variant="outline" size="lg">
+                  Ver serviços
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center gap-6 pt-4 text-sm text-gray-500 font-medium">
@@ -67,7 +71,7 @@ export const Hero: React.FC = () => {
                 <div>
                   <p className="text-xs text-gray-500 font-medium">Avaliações Google</p>
                   <div className="flex items-center gap-1">
-                    <span className="font-bold text-gray-900">4.9/5.0</span>
+                    <span className="font-bold text-gray-900">4.8/5.0</span>
                     <div className="flex text-yellow-400 text-xs">★★★★★</div>
                   </div>
                 </div>

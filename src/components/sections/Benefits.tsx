@@ -5,22 +5,22 @@ import { ShieldCheck, Zap, Award, Banknote } from 'lucide-react';
 export const Benefits: React.FC = () => {
   const benefits = [
     {
-      icon: <Award className="w-8 h-8 text-primary" />,
+      icon: <Award className="w-8 h-8" />,
       title: 'Peças Premium',
       description: 'Utilizamos apenas peças de primeira linha para garantir durabilidade.'
     },
     {
-      icon: <Zap className="w-8 h-8 text-primary" />,
+      icon: <Zap className="w-8 h-8" />,
       title: 'Reparo Expresso',
       description: 'Troca de tela e bateria em até 40 minutos na maioria dos modelos.'
     },
     {
-      icon: <ShieldCheck className="w-8 h-8 text-primary" />,
+      icon: <ShieldCheck className="w-8 h-8" />,
       title: 'Garantia Estendida',
       description: '3 meses de garantia em todos os serviços realizados.'
     },
     {
-      icon: <Banknote className="w-8 h-8 text-primary" />,
+      icon: <Banknote className="w-8 h-8" />,
       title: 'Orçamento Grátis',
       description: 'Diagnóstico sem custo e sem compromisso para você.'
     }
