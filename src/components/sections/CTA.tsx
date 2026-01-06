@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../layout/Container';
 import { Button } from '../ui/Button';
-import { MessageCircle, Star } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 export const CTA: React.FC = () => {
   return (
@@ -24,12 +24,7 @@ export const CTA: React.FC = () => {
             </Button>
           </a>
           
-          <a href="https://share.google/NeEc9LvYsKHIAqa4n" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" variant="outline" className="gap-2 text-lg px-8 py-6 text-white border-white hover:bg-white/10 transform hover:-translate-y-1 transition-all w-full md:w-auto">
-              <Star size={24} />
-              Nos Avalie no Google
-            </Button>
-          </a>
+
         </div>
      
       </Container>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from '../layout/Container';
+import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
 import { Star, Quote } from 'lucide-react';
 import { Badge } from '../ui/Badge';
@@ -45,6 +46,15 @@ export const Testimonials: React.FC = () => {
                 <span className="block font-bold text-gray-900">Aparelhos Recuperados</span>
                 com 98% de satisfação
               </div>
+            </div>
+
+            <div className="mt-8">
+              <a href="https://share.google/NeEc9LvYsKHIAqa4n" target="_blank" rel="noopener noreferrer" className="inline-block w-full md:w-auto">
+                <Button variant="outline" className="w-full md:w-auto gap-2 text-lg px-8 py-6 shadow-lg hover:shadow-primary/30 hover:bg-primary/5 transition-all pointer-events-none">
+                  <Star size={24} />
+                  Nos Avalie no Google
+                </Button>
+              </a>
             </div>
           </div>
 
