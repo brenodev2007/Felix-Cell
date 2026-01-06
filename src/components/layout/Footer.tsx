@@ -60,6 +60,7 @@ export const Footer: React.FC = () => {
                <div className="flex items-center gap-3 flex-wrap">
                   <FaCcVisa size={32} className="text-white hover:text-blue-500 transition-colors" />
                   <FaCcMastercard size={32} className="text-white hover:text-red-500 transition-colors" />
+                  <img src="/elo-logo.png" alt="Elo" className="h-8 hover:opacity-80 transition-opacity" />
                   <div className="flex items-center gap-1 bg-white px-2 py-1 rounded text-primary font-bold text-sm h-8" title="Cielo">
                     <span className="text-[#00aeef]">cielo</span>
                   </div>

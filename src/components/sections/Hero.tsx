@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../layout/Container';
 import { Button } from '../ui/Button';
-import { ArrowRight, CheckCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle, Zap } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
@@ -9,9 +9,15 @@ export const Hero: React.FC = () => {
       <Container>
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
           <div className="lg:w-1/2 space-y-8 animate-in slide-in-from-left-5 duration-700">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary text-sm font-medium border border-blue-100">
-              <CheckCircle size={14} />
-              <span>Garantia em todos os serviços</span>
+            <div className="flex flex-wrap gap-3">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary text-sm font-medium border border-blue-100">
+                <CheckCircle size={14} />
+                <span>Garantia em todos os serviços</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-white text-sm font-bold border border-secondary-dark shadow-lg ">
+                <Zap size={14} />
+                <span>Concerto na hora!</span>
+              </div>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
