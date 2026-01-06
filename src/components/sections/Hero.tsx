@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
                 {/* Image Placeholder */}
                 <div className="bg-gray-100 rounded-2xl aspect-[4/3] flex items-center justify-center overflow-hidden">
                    <img 
-                    src="https://images.unsplash.com/photo-1595429035839-c99c298ffdde?q=80&w=2670&auto=format&fit=crop" 
+                    src="/hero-repair.jpg" 
                     alt="Técnico consertando celular" 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                    />
