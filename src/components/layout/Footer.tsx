@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold text-white mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <li><a href="#services" className="hover:text-secondary transition-colors">Serviços</a></li>
-              <li><a href="#how-it-works" className="hover:text-secondary transition-colors">Como Funciona</a></li>
+              <li><a href="#how-it-works" className="hover:text-secondary transition-colors">Delivery</a></li>
               <li><a href="#testimonials" className="hover:text-secondary transition-colors">Depoimentos</a></li>
               <li><a href="#faq" className="hover:text-secondary transition-colors">Perguntas Frequentes</a></li>
             </ul>
